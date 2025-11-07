@@ -8,7 +8,8 @@ The gateway runs a MQTT server using the [Cirrus Link](https://cirrus-link.com/m
 
 The gateway runs a visualization system known as Perspective to display the weather sensor data in a browser window. Sensor data is held in data structures called "tags". Each tag holds a specific sensor value. Tag values can be written to a MariaDB database using the Ignition historian module. This allows past values of each sensor to be retrieved later and displayed on a trend chart.
 Ignition designer with sensor tags:
-![Ignition designer screenshot](/ignition-gateway/perspective-screenshots/designer.png)
+<img width="2328" height="1783" alt="designer" src="https://github.com/user-attachments/assets/cf159c36-7613-4ebd-9539-70c6596c8d7d" />
+
 
 # Pi Zero
 The Pi Zero runs a Python script that regularly retrieves weather sensor data from the GPIO pins. The `all-sensors-to-mqtt` script uses the `paho.mqtt.client` Python library to transmit the sensor data to the Ignition gateway running on the Pi 4.
