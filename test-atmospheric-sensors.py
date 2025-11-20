@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from sensors import BME680
-
+# uses python3 and sensors module to the temprature humidity pressure
 bme680 = BME680()
 print("Temperature: %0.1f C" % bme680.getTemperature())
 print("Gas: %d ohm" % bme680.getGas())
