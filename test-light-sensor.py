@@ -4,7 +4,7 @@ from sensors import PiLightSensor
 from time import sleep
 
 sensor = PiLightSensor()
-
+# comment
 print("Waiting for 10 second light sensor test:")
 # this is the testcase were the pilight sensors is used 
 acc = 0
