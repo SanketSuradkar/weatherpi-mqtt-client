@@ -8,7 +8,7 @@ windVane = WindVane()
 
 print("Waiting for %d second wind speed test: spin the anemometer now" % windSpeed.interval_secs)
 #pause()
-
+# naina in the component windspeed , windvane 
 acc = 0
 while acc<windSpeed.interval_secs:
     sleep(1)
