@@ -6,7 +6,7 @@ from time import sleep
 sensor = PiLightSensor()
 
 print("Waiting for 10 second light sensor test:")
-
+# this is the testcase were the pilight sensors is used 
 acc = 0
 while(acc < 10):
     # 0.0V = full sunlight
