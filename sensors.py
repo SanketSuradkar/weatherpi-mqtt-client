@@ -74,6 +74,8 @@ class TempProbe():
     #         DS.pinsStartConversion([4])
     #         self.tempProbe = self.sensors[0]
 
+    # input throught the tempprobe in the librabry 
+
     def read_temp(self):
         # We are using GPIO 4
         sensors = DS.scan(4)
